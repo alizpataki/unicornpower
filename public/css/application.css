@@ -1,0 +1,32 @@
+body {
+    padding-top: 70px;
+    background-color: #555B6E;
+}
+
+h2,h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  border: solid 2px #BEE3BD;
+  background-color: #FAF9F9;
+}
+
+.nav li:hover {
+  background-color: #BEE3BD;
+}
+
+.active > a {
+  background-color: #555B6E !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.jumbotron {
+  margin-top: 5em;
+  background-color: #FAF9F9;
+  border: solid 2px #BEE3BD;
+  color: #555B6E;
+}
