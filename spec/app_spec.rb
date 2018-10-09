@@ -21,7 +21,7 @@ end
   
   it 'displays the correct content' do
   get '/'
-  expect(last_response.body).to include "Home of the World's Best Prototypes"
+  expect(last_response.body).to include "Home of the World's Best Unicorns"
 end
 
 end
